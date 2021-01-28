@@ -1,0 +1,28 @@
+input[type="textarea"] {
+  box-shadow: 10px 10px 15px gray;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+div.numInput {
+  height: 25vh;
+}
+
+div.numbers button {
+  border: none;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 5px 5px 10px gray;
+  outline-style: none;
+  background-color: wheat;
+}
+
+div.adjust {
+  padding: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
